@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contents{
+    position: relative;
+    height: 400px;
+    display: flex;
+    background-color: #c2ffff;
+    justify-content: space-evenly;
+}
+
+.card{
+    position: absolute;
+    width: 200px;
+    height: 230px;
+    padding: 10px;
+    background-color: #fbfbfb;
+    border: 1px solid #d5d5d5;
+    text-align: center;
+    color: #b0a179;
+    transition: all 0.5s 0s ease;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card_01{
+    z-index: 300;
+    top: 50%;
+    left: 40%;
+    transform: translate(-40%,-50%);
+    -webkit-transform: translate(-40%,-50%);
+}
+
+.card_01:hover{
+    top: 30%;
+}
+
+.card_02{
+    z-index: 200;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-70%);
+    -webkit-transform: translate(-50%,-70%);
+}
+
+.card_02:hover{
+    top: 44%;
+    z-index: 400;
+}
+
+.card_03{
+    z-index: 100;
+    top: 90%;
+    left: 60%;
+    transform: translate(-60%,-90%);
+    -webkit-transform: translate(-60%,-90%);
+}
+
+.card_03:hover{
+    top: 57%;
+    z-index: 400;
+}
+
+.text_test{
+    position: relative;
+    background-color: antiquewhite;
+    height: 300px;
+}
+
+.text_test p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+}
+
+.img_test{
+    position: relative;
+    background-color: #c2ffff;
+    height: 300px;
+}
+
+.img_test img{
+    position: absolute;
+    width: 150px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+}
